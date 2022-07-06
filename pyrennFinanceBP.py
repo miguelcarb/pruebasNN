@@ -28,7 +28,8 @@ Y = df['Close'].values
 Ptest_ = df['Open'].values
 Ytest_ = df['Adj Close'].values
 
-# define the first 3 timesteps t=[0,1,2] of Test Data as previous (known) data P0test and Y0test
+# define the first 3 timesteps t=[0,1,2] of Test Data as 
+# previous (known) data P0test and Y0test
 P0test = Ptest_[0:3]
 Y0test = Ytest_[0:3]
 
